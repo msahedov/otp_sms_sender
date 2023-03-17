@@ -78,6 +78,7 @@ class _MessagePageState extends State<MessagePage> {
                                   context.read<MessageBloc>().add(
                                       ClearMessageEvent(
                                           widget.message.superId!));
+                                  Navigator.of(context).pop();
                                 },
                                 style: ElevatedButton.styleFrom(
                                   fixedSize: Size.fromWidth(

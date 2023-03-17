@@ -1,4 +1,4 @@
-import 'package:sender_app/src/domain/message/repository/message_repository.dart';
+import '../../../domain/message/repository/message_repository.dart';
 
 class ClearAllMessageUseCase {
   ClearAllMessageUseCase({required this.messageRepository});
