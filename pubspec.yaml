@@ -1,0 +1,100 @@
+name: authenticator
+description: A new Flutter project.
+
+
+publish_to: 'none' 
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.15.0 <3.0.0"
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.2
+  telephony: any
+  get_it: any
+  go_router: 
+  hive: any
+  hive_flutter: any
+  flutter_bloc:
+  wakelock: any 
+  http: ^0.13.5
+  equatable: any
+  intl: any
+
+dev_dependencies:
+  build_runner: any
+  flutter_lints: ^1.0.0
+  flutter_app_name:           # flutter pub run flutter_app_name
+  flutter_launcher_icons:     # flutter pub run flutter_launcher_icons
+  change_app_package_name:    # flutter pub run change_app_package_name:main com.new.package.name  
+  flutter_native_splash: 
+
+
+  flutter_test:
+    sdk: flutter
+  hive_generator: any
+
+
+
+
+
+flutter_app_name:
+ name: "Authenticator"
+
+flutter_native_splash:
+  color: "#ffffff"
+  image: assets/images/icon.png
+  color_dark: "#121212"
+  android: true
+  ios: false
+  android_12:
+    image: assets/images/icon_light.png
+    icon_background_color: "#ffffff"
+    image_dark: assets/images/icon_dark.png
+    icon_background_color_dark: "#121212"
+
+flutter_icons:
+ image_path: "assets/images/icon.png"
+ ios: false
+ android: "launcher_icon"
+   
+
+
+
+
+
+flutter:
+  generate: true
+  uses-material-design: true
+  # To add assets to your application, add an assets section, like this:
+  # assets:
+  #   - images/a_dot_burr.jpeg
+  #   - images/a_dot_ham.jpeg
+
+
+  fonts:
+    - family: Outfit
+      fonts:
+        - asset: assets/fonts/outfit/Outfit-Black.ttf
+          weight: 900
+        - asset: assets/fonts/outfit/Outfit-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/outfit/Outfit-ExtraBold.ttf
+          weight: 800
+        - asset: assets/fonts/outfit/Outfit-Light.ttf
+          weight: 300
+        - asset: assets/fonts/outfit/Outfit-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/outfit/Outfit-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/outfit/Outfit-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/outfit/Outfit-ExtraLight.ttf
+          weight: 200
+        - asset: assets/fonts/outfit/Outfit-Thin.ttf
+          weight: 100
